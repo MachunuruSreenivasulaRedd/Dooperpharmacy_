@@ -311,7 +311,7 @@ class Dashboard extends Component{
     }
 
     renderQuotationPopUp=()=>(
-        <div className='popupContainer' onClick={this.onClickSendQuote}>
+        <div className='popupContainer'>
             <div className='addQuotationPopup'>
             <h1 className='addQuoteTxt'>Add Quotation</h1>
             <div className='uploadInput'>
