@@ -129,7 +129,7 @@ class Dashboard extends Component{
                         </div>
                     </div>
                     <hr className='cardHr'/>
-                        <span className='quo'>Quotation: <span>     </span>Rs.500</span>
+                        <span className='quo'>Quotation: <span>     </span>Rs 500</span>
                     </div>
                     
 
@@ -197,7 +197,7 @@ class Dashboard extends Component{
             </div>
         </div>
         <hr className='cardHr'/>
-            <span className='quo'>Quotation: <span></span>Rs.500</span>
+            <span className='quo'>Quotation: <span></span>Rs 500</span>
         </div>
 
         <div className='card' onClick={this.onClickChangeSendQuotation}>

@@ -140,25 +140,25 @@ class Profile extends Component {
    return(
     <form className='formContainer'>
       <div className='item'>
-      <label htmlFor='name'>Full name</label>
+      <label className='label' htmlFor='name'>Full name</label>
         <input type="text" id="name" />
       </div>
       <div className='item'>
-      <label htmlFor='number'>Mobile number</label>
+      <label className='label' htmlFor='number'>Mobile number</label>
         <input type="integer" id="number" className='shade' />
       </div>
       <div className='item'>
-      <label htmlFor='photo'>Pharmacy photo</label>
+      <label className='label' htmlFor='photo'>Pharmacy photo</label>
         <span><input type="file" id="photo" className='input'/>
         <TbEdit className='editNameIcon'/>
         </span>
       </div>
       <div className='item'>
-      <label htmlFor='PharName'>Pharmacy Name</label>
+      <label className='label' htmlFor='PharName'>Pharmacy Name</label>
         <input type="text" id="PharName" />
       </div>
       <div className='item'>
-      <label htmlFor='PharAddress'>Pharmacy Address</label>
+      <label className='label' htmlFor='PharAddress'>Pharmacy Address</label>
         <input type="text" id="PharAddress" />
         <input type="text" id="PharAddress"/>
         <input type="text" id="PharAddress" />
@@ -173,11 +173,11 @@ class Profile extends Component {
    return(
     <form className='formContainer'>
       <div className='item'>
-      <label htmlFor='HosName'>Hospital Name</label>
+      <label className='label' className='label' htmlFor='HosName'>Hospital Name</label>
         <input type="text" id="HosName" className='shade'/>
       </div>
       <div className='item'>
-      <label htmlFor='HosAddress'>Hospital Address*</label>
+      <label className='label' className='label' htmlFor='HosAddress'>Hospital Address*</label>
         <input type="text" id="HosAddress" className='shade'/>
         <input type="text" id="HosAddress" className='shade'/>
         <input type="text" id="HosAddress" className='shade'/>
@@ -191,19 +191,19 @@ class Profile extends Component {
    return(
     <form className='formContainer'>
     <div className='item'>
-    <label htmlFor='BankNAme'>Bank Name</label>
+    <label className='label' className='label' htmlFor='BankNAme'>Bank Name</label>
       <input type="text" id="BankName" />
     </div>
     <div className='item'>
-    <label htmlFor='AccNumber'>Account Number</label>
+    <label className='label' className='label' htmlFor='AccNumber'>Account Number</label>
       <input type="integer" id="AccNumber" />
     </div>
     <div className='item'>
-    <label htmlFor='IFSCcode'>IFSC code</label>
+    <label className='label' className='label' htmlFor='IFSCcode'>IFSC code</label>
       <input type="integer" id="IFSCcode" />
     </div>
     <div className='item'>
-    <label htmlFor='BnkStmt'>upload bank statement/cancel cheque</label>
+    <label className='label' className='label' htmlFor='BnkStmt'>upload bank statement/cancel cheque</label>
       <span><input type="file" id="BnkStmt" className='input'/>
       <TbEdit className='editNameIcon'/>
       </span>
@@ -216,27 +216,27 @@ class Profile extends Component {
     return(
       <form className='formContainer'>
       <div className='item'>
-      <label htmlFor='photo'>Pharmacy photo</label>
+      <label className='label' className='label' htmlFor='photo'>Pharmacy photo</label>
         <span><input type="file" id="photo" className='input'/>
         <TbEdit className='editNameIcon'/>
       </span>
       </div>
       <div className='item'>
-      <label htmlFor='photo'>Pharmacy photo</label>
-        <span><input type="file" id="photo" className='input'/>
-        <TbEdit className='editNameIcon'/>
-      </span>
-      </div>
-
-      <div className='item'>
-      <label htmlFor='photo'>Pharmacy photo</label>
+      <label className='label' className='label' htmlFor='photo'>Pharmacy photo</label>
         <span><input type="file" id="photo" className='input'/>
         <TbEdit className='editNameIcon'/>
       </span>
       </div>
 
       <div className='item'>
-      <label htmlFor='photo'>Pharmacy photo</label>
+      <label className='label' className='label' htmlFor='photo'>Pharmacy photo</label>
+        <span><input type="file" id="photo" className='input'/>
+        <TbEdit className='editNameIcon'/>
+      </span>
+      </div>
+
+      <div className='item'>
+      <label className='label' className='label' htmlFor='photo'>Pharmacy photo</label>
         <span><input type="file" id="photo" className='input'/>
         </span>
       </div>

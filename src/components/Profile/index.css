@@ -5,7 +5,7 @@
 body{
   overflow-x: hidden;
 }
-label{
+.label{
   color: var(--Grey-Grey-04, #8D98A4);
   font-family: Montserrat;
   font-size: 12px;
