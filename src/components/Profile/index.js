@@ -145,7 +145,7 @@ class Profile extends Component {
       </div>
       <div className='item'>
       <label htmlFor='number'>Mobile number</label>
-        <input type="integer" id="number" />
+        <input type="integer" id="number" className='shade' />
       </div>
       <div className='item'>
       <label htmlFor='photo'>Pharmacy photo</label>
@@ -174,13 +174,13 @@ class Profile extends Component {
     <form className='formContainer'>
       <div className='item'>
       <label htmlFor='HosName'>Hospital Name</label>
-        <input type="text" id="HosName" />
+        <input type="text" id="HosName" className='shade'/>
       </div>
       <div className='item'>
-      <label htmlFor='HosAddress'>Hospital Address</label>
-        <input type="text" id="HosAddress" />
-        <input type="text" id="HosAddress" />
-        <input type="text" id="HosAddress" />
+      <label htmlFor='HosAddress'>Hospital Address*</label>
+        <input type="text" id="HosAddress" className='shade'/>
+        <input type="text" id="HosAddress" className='shade'/>
+        <input type="text" id="HosAddress" className='shade'/>
       </div>
       </form>
    )
