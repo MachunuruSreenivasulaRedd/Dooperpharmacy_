@@ -82,7 +82,7 @@ class Dashboard extends Component{
                     </div>
                     <hr className='cardHr'/>
                     <div className='QuotationBtn'>
-                        {QuotationStatus?<div className='adivInner'><p>Quotation :</p><p>Rs 500</p></div>:<button className='sendQuotation' onClick={this.onClickChangeQuotationStatus}>Send Quotation</button>}
+                        {QuotationStatus?<div className='adivInner3'><p>Quotation :</p><p>Rs 500</p></div>:<button className='sendQuotation' onClick={this.onClickChangeQuotationStatus}>Send Quotation</button>}
                     </div>
                 </div>
             </div>
@@ -164,7 +164,7 @@ class Dashboard extends Component{
                     </div>
                     <hr className='cardHr'/>
                     <div className='QuotationBtn'>
-                        {QuotationStatus?<div className='adivInner'><p>Quotation :</p><p>Rs 500</p></div>:<button className='sendQuotation' onClick={this.onClickChangeQuotationStatus}>Send Quotation</button>}
+                        {QuotationStatus?<div className='adivInner3'><p>Quotation :</p><p>Rs 500</p></div>:<button className='sendQuotation' onClick={this.onClickChangeQuotationStatus}>Send Quotation</button>}
                     </div>
                 </div>
 
@@ -231,7 +231,7 @@ class Dashboard extends Component{
                     </div>
                     <hr className='cardHr'/>
                     <div className='QuotationBtn'>
-                        {QuotationStatus?<div className='adivInner'><p>Quotation :</p><p>Rs 500</p></div>:<button className='sendQuotation' onClick={this.onClickChangeQuotationStatus}>Send Quotation</button>}
+                        {QuotationStatus?<div className='adivInner3'><p>Quotation :</p><p>Rs 500</p></div>:<button className='sendQuotation' onClick={this.onClickChangeQuotationStatus}>Send Quotation</button>}
                     </div>
                 </div>
     

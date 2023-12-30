@@ -181,6 +181,7 @@ class Profile extends Component {
         <input type="text" id="HosAddress" className='shade'/>
         <input type="text" id="HosAddress" className='shade'/>
         <input type="text" id="HosAddress" className='shade'/>
+        <input type="text" id="HosAddress" className='shade'/>
       </div>
       </form>
    )

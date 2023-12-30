@@ -12,6 +12,7 @@ label{
   font-style: normal;
   font-weight: 500;
   line-height: 116%; /* 13.92px */
+  padding-bottom: 8px;
 }
 .maincontent-container {
     display: flex;
@@ -210,6 +211,11 @@ font-weight:600;
 }
 .address{
   margin:0px 0px 12px 0px;
+}
+input{
+  font-size: 18px;
+  font-weight: 500;
+  color:#5B6572;
 }
   .selected{
     margin-right: 15px;
