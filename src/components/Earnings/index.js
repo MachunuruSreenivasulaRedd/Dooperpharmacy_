@@ -68,7 +68,7 @@ class Earnings extends Component {
     <div className="content-container">
       <div className="content-content">
         <div className="content-fields">
-          <div className="content-frame6">
+          <div className="content-frame">
             <div className="content-a">
               <span className="content-text SmallMedium">
                 <span>transaction #1234</span>
@@ -83,7 +83,7 @@ class Earnings extends Component {
               </span>
             </div>
           </div>
-          <div className="content-frame4">
+          <div className="content-frame">
             <div className="content-a1">
               <span className="content-text06 SmallMedium">
                 <span>transaction #1234</span>
@@ -98,7 +98,7 @@ class Earnings extends Component {
               </span>
             </div>
           </div>
-          <div className="content-frame5">
+          <div className="content-frame">
             <div className="content-a2">
               <span className="content-text12 SmallMedium">
                 <span>transaction #1234</span>
@@ -113,7 +113,7 @@ class Earnings extends Component {
               </span>
             </div>
           </div>
-          <div className="content-frame7">
+          <div className="content-frame">
             <div className="content-a3">
               <span className="content-text18 SmallMedium">
                 <span>transaction #1234</span>
@@ -128,7 +128,7 @@ class Earnings extends Component {
               </span>
             </div>
           </div>
-          <div className="content-frame8">
+          <div className="content-frame">
             <div className="content-a4">
               <span className="content-text24 SmallMedium">
                 <span>transaction #1234</span>
@@ -342,7 +342,7 @@ class Earnings extends Component {
                         <div className='sortSection'>
                             <span>Sort by </span>
                             <span className='pageNo'>Page</span>
-                            <select>
+                            <select className='options'>
                                 <option value={1}>1</option>
                                 <option value={2}>2</option>
                                 <option value={3}>3</option>
