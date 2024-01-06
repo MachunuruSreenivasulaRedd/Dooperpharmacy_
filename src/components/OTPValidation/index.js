@@ -7,7 +7,7 @@ const OTPValidation=()=>{
     const [OTP, setOTP] = useState("");
 
     const inputStyles={
-        height:64,
+        height:54,
         width:64,
         borderRadius:8,
         placeHolder:'-',
