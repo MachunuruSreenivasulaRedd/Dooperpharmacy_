@@ -5,7 +5,7 @@
     align-items: center;
     flex-direction: column;
     margin-top:8px;
-    background-color:#f4f4f4;
+    background-color:#ffffff;
     padding-bottom: 16px;
 }
 body{
@@ -14,7 +14,7 @@ body{
   .Header{
     padding-left: -40px;
     margin-left: -20px;
-    background-color:#f4f4f4;
+    background-color:#ffffff;
   }
   .text{
     color: var(--Grey-Grey-03, #5B6572);
@@ -296,11 +296,11 @@ line-height: 116%; /* 16.24px */
   }
   .historyContainer{
     padding:55px;
-    background-color:#f4f4f4;
+    background-color:#ffffff;
   }
   #earnings{
     padding:30px;
-    background-color:#f4f4f4;
+    background-color:#fff;
   }
   .historyItem{
     display: flex;
@@ -333,7 +333,7 @@ flex-direction: row;
     align-items: center;
     flex-direction: column;
     padding-left:55px;
-    background-color:#f4f4f4;
+    background-color:#ffffff;
   }
   .content-content {
     gap: 40px;
@@ -838,7 +838,7 @@ flex-direction: row;
     flex-shrink: 1;
     border-radius: 16px;
     flex-direction: column;
-    background-color: var(--dl-color-default-white);
+    background-color:#FFF;
   }
   .content-text37 {
     color: var(--dl-color-grey-grey01);
