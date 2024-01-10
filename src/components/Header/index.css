@@ -74,6 +74,14 @@ text-align: left;
     text-decoration: none;
     min-width:120px;
 }
+.imgProfile{
+    text-decoration: none;
+    background-color: transparent;
+}
+.oo:visited{
+    text-decoration: none;
+    background-color: white;
+}
 .dropProfile:visited{
     background-color: inherit;
     color:black;

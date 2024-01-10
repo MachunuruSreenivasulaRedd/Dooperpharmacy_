@@ -25,7 +25,7 @@ const Header=()=>(
                 <a className='dropdown'><AiOutlineCaretDown/></a>
             </div>
             <div className='greyContainer'>
-                <img src="https://res.cloudinary.com/dfx93rmno/image/upload/v1703593168/Rectangle_619_z0cubg.svg" alt="profile img"/>
+            <NavLink to="/profile" className="oo"><img src="https://res.cloudinary.com/dfx93rmno/image/upload/v1703593168/Rectangle_619_z0cubg.svg" alt="profile img" className="imgProfile"/></NavLink>
                 <NavLink to="/profile" className='dropProfile'>Jaydip Sakhiya</NavLink>
                 <a className='dropdown2'><AiOutlineCaretDown/></a>
             </div>
