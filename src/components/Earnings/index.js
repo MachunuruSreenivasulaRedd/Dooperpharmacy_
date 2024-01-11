@@ -340,7 +340,7 @@ class Earnings extends Component {
                             Withdrawals
                         </div>
                         <div className='sortSection'>
-                            <span>Sort by </span>
+                            <span>Sort by <img src="https://res.cloudinary.com/dfx93rmno/image/upload/v1704973882/Frame_1686560416_kjsgtb.svg" alt="updown"  className='updown'/></span>
                             <span className='pageNo'>Page</span>
                             <select className='options'>
                                 <option value={1}>1</option>
